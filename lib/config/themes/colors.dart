@@ -16,4 +16,7 @@ class MyColors{
   //this is the error color
   static const Color errorColor = Color.fromRGBO(228, 98, 111, 1);
 
+  //this is the text color
+  static const Color customtextColor =   Color.fromRGBO(26, 28, 30, 1);
+
 }

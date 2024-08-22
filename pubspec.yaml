@@ -1,37 +1,34 @@
 name: cartwey
 description: "A new Flutter project."
 
-
 publish_to: 'none' 
-
-
-
 
 version: 1.0.0+1
 
 environment:
   sdk: '>=3.4.4 <4.0.0'
 
-
-
-
-
-
-
 dependencies:
   flutter:
     sdk: flutter
-
-
   
-  
+
   cupertino_icons: ^1.0.6
+  flutter_native_splash: ^2.4.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^3.0.0
+  
+
+#dependency used for the splash screen, the image, the background image and the color  
+flutter_native_splash:
+  background_image: assets/images/bg-group.png
+  color: '#0D4C3B'
+  image: assets/images/group-logo.png
+  
 
 
 
@@ -40,3 +37,6 @@ dev_dependencies:
 flutter:
   
   uses-material-design: true
+
+  assets:
+    - assets/
